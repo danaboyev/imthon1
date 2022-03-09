@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1125px;
+    margin: 0 auto;
+}
+.aaa{
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+
+}
+.navigatsiya{
+    display: flex;
+    margin-left: 108px;
+}
+.menu{
+    display: none;
+}
+.nav-list{
+    list-style: none;
+    margin-right: 50px;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+}
+.icon1{
+    margin-left: 100px;
+}
+.icons{
+    margin-right: 24px;
+}
+.bbb{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+.making1{
+    width: 545px;
+    font-family: Roboto;
+    color: #1F2E35;
+    font-size: 48px;
+}
+.span1{
+    color:  #EE4248;
+}
+.text-1{
+    font-size: 20px;
+    color: #1F2E35;
+    width: 545px;
+    font-family: Roboto;
+    margin-top: 25px;
+    
+}
+.down{
+    width: 161px;
+    font-family: Roboto;
+    height: 53px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 12px 32px;
+    position: relative;
+    top: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+.images2{
+    width: 562.97px;
+    height: 381.61px;
+}
+#post{
+    background: #F7F7F7;
+}
+.ccc{
+    margin-top: 98px;
+    display: flex;
+}
+.samara{
+    padding: 55px 0 65px 0 ;
+}
+.dsi{
+    width: 454px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 32px;
+    color: #1F2E35;
+}
+.span2{
+    color: #EE4248;
+
+}
+.text-2{
+    width: 520px;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #30444E;
+    margin-top: 25px;
+}
+.images3{
+    width: 480px;
+    height: 400px;
+    margin-right: 82px;
+}
+.servis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 115px;
+}
+h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 32px;
+    color: #1F2E35;
+}
+.cards{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.card1, .card2, .card3{
+    width: 363px;
+}
+.tema{
+    width: 151px;
+    font-family: Roboto;    
+    font-weight: 500;
+    font-size: 28px;
+    color: #EE4248;
+
+}
+.tema2{
+    width: 191px;
+    font-family: Roboto;    
+    font-weight: 500;
+    font-size: 25px;
+    color: #EE4248;
+}
+.text3{
+    width: 319px;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #30444E;
+    margin-top: 15px;
+}
+.down2{
+    width: 161px;
+    font-family: Roboto;
+    height: 53px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 12px 32px;
+    position: relative;
+    top: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+.ddd{
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+}
+.pt{
+    margin-top: 10px;
+    width: 259px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    color: #263238;
+}  
+.text4{
+    font-family: Roboto;
+    width: 317px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #263238;
+    margin-top: 10px;
+} 
+.pt2{
+    width: 85px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    color: #263238;
+}
+.text5{
+    font-family: Roboto;
+    margin-top: 15px;
+    width: 269px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #263238;
+}
+.contact{
+    margin-left: 50px;
+}
+#post1{
+    background-color: #EE4248;
+}
+.footer-text{
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px 0;
+}
+@media(max-width: 390px){
+    /* .container{
+        width: 380px;
+        margin: 0 auto;
+    } */
+    .aaa{
+        padding-top: 20px;
+        padding-left: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .images1{
+        width: 90px;
+        height: 50px;
+    }
+    .navbar{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        width: 40px;
+        height: 40px;
+        /* margin-left: 100px; */
+        /* justify-content: end; */
+        margin-right: 10px;
+        
+    }
+    .icon1{
+        display: none;
+        margin: 0 auto;
+    }
+    .bbb{
+        flex-direction: column-reverse;
+    }
+    .images2{
+        width: 300px;
+        height: 200px;
+    }
+    .making1{
+        width: 300px;
+        font-size: 28px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .text-1{
+        font-size: 18px;
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .down{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+    .ccc{
+        flex-direction: column;
+    }
+    .images3{
+        width: 310px;
+        height: 260px; 
+        display: block;
+        margin: 0 auto;
+    }
+    .dsi{
+        font-size: 28px; 
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .text-2{
+        width: 300px;
+        margin: 0 auto;
+        font-size: 18px;
+        text-align: center;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card_icon{
+        display: block;
+        margin: 0 auto;
+    }
+    .tema{
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .tema2{
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .text3{
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+
+    }
+    .down2{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .ddd{
+        flex-direction: column;
+    }
+    .pt{
+        font-size: 20px;
+    }
+    .text4{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .diwidasa{
+        margin-left: 10px;
+    }
+    .contact{
+        margin-left: -25px;
+    }
+    .footer-text{
+        font-size: 15px;
+    }
+        
+    
+}
